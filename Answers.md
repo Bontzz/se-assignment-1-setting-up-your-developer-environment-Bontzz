@@ -74,23 +74,23 @@ Reference: https://www.guru99.com/download-install-visual-studio.html -
 
 3. Set Up Version Control System:
 
-    Step 1: Download the Git Bash setup from the official website https://git-scm.com/
+Step 1: Download the Git Bash setup from the official website https://git-scm.com/
 
-    Step 2: Download the installer
+Step 2: Download the installer
 
-   Step 3: Run the .exe file you just downloaded and follow the instructions in the installer.
+Step 3: Run the .exe file you just downloaded and follow the instructions in the installer.
     ![Screenshot 10](image-9.png)
 
-    Step 4: Select the components that you need to install and click on the Next button.
+Step 4: Select the components that you need to install and click on the Next button.
     ![Screenshot 11](image-10.png)
 
-    Step 5: Select the path where you want to install git as shown in the image below.
+Step 5: Select the path where you want to install git as shown in the image below.
     ![Screenshot 12](image-11.png)
 
-    Step 6: Let the installation process finish to begin using Git Bash.
+Step 6: Let the installation process finish to begin using Git Bash.
     ![Screenshot 13](image-12.png)
 
-    Step 7: Once installation is done. Open Gitbash, right click and open as administrator. 
+Step 7: Once installation is done. Open Gitbash, right click and open as administrator. 
     ![Screenshoot 14](image-13.png)
 
 How to use connect Gitbash to Github.
