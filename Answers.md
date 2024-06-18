@@ -129,18 +129,18 @@ Push the changes in your local repository to GitHub.
         git push origin master
 Here the files have been pushed to the master branch of your repository. Now in the GitHub repository, the pushed files can be seen.
 
-    Step 5: Pulling and Pushing Changes to GitBash
-    Suppose the files are being changed and new files are added to the local repository. To save the changes in the git repository:
-    Download all the other changes from the remote repository to the local repository.
-        git pull 
-    Changes have to be staged for the commit.
-        git add .
-    or
-        git add file_name
-    Now commit the staged files.
-        git commit -m "commit_name"
-    Push the changes.
-        git push origin master
+Step 5: Pulling and Pushing Changes to GitBash
+Suppose the files are being changed and new files are added to the local repository. To save the changes in the git repository:
+Download all the other changes from the remote repository to the local repository.
+    git pull 
+Changes have to be staged for the commit.
+    git add .
+or
+    git add file_name
+Now commit the staged files.
+    git commit -m "commit_name"
+Push the changes.
+    git push origin master
 
 Reference: https://www.geeksforgeeks.org/working-on-git-bash/
 
@@ -150,55 +150,55 @@ Reference: https://www.geeksforgeeks.org/working-on-git-bash/
     Step 1: Select Version to Install Python. Download on [Python Download](https://www.python.org/downloads/). on the Windows operating system. Locate a reliable version of Python 3.
 ![Screenshoot 17](image-16.png)
 
-    Step 2: Downloading the Python Installer
-    Once you have downloaded the installer, open the .exe file, such as python-3.12.4-amd64.exe, by double-clicking it to launch the Python installer. Choose the option to Install the launcher for all users by checking the corresponding checkbox, so that all users of the computer can access the Python launcher application. Enable users to run Python from the command line by checking the Add python.exe to PATH checkbox.
- ![Screenshoot 18](image-17.png)   
+Step 2: Downloading the Python Installer
+Once you have downloaded the installer, open the .exe file, such as python-3.12.4-amd64.exe, by double-clicking it to launch the Python installer. Choose the option to Install the launcher for all users by checking the corresponding checkbox, so that all users of the computer can access the Python launcher application. Enable users to run Python from the command line by checking the Add python.exe to PATH checkbox.
+![Screenshoot 18](image-17.png)   
 
-    Step 3: After Clicking the Install Now Button the setup will start installing Python on your Windows system. You will see a window like this.
+Step 3: After Clicking the Install Now Button the setup will start installing Python on your Windows system. You will see a window like this.
 ![Screenshoot 19](image-18.png)
 
-    Step 4: After completing the setup. Python will be installed on your Windows system. You will see a successful message.
+Step 4: After completing the setup. Python will be installed on your Windows system. You will see a successful message.
 
-    Step 5:  Verify the Python Installation in Windows
-    Close the window after successful installation of Python. You can check if the installation of Python was successful by using either the command line or Powershell.
-    To access the command line, click on the Start menu and type “cmd” in the search bar. Then click on Command Prompt.
+Step 5:  Verify the Python Installation in Windows
+Close the window after successful installation of Python. You can check if the installation of Python was successful by using either the command line or Powershell.
+To access the command line, click on the Start menu and type “cmd” in the search bar. Then click on Command Prompt.
         
-        python –version
+    python –version
 ![Screenshot 19](image-19.png)
 Once you see it’s the version. Download and path is successful
 
 5. Install Package Managers:
-   Installing PIP
-    Step 1: Open command prompt or Powershell. 
-    Step 2; Check if python is installed by using command :
-	    python –version.
-    If it installed, you will see something like this;
-        Python 3.10.11.
-    Step 3: Check if PIP is installed by opening the CMD and typing the command: pip then enter, if pip is not installed you will get an error message: 
+Installing PIP
+Step 1: Open command prompt or Powershell. 
+Step 2; Check if python is installed by using command :
+	python –version.
+If it installed, you will see something like this;
+    Python 3.10.11.
+Step 3: Check if PIP is installed by opening the CMD and typing the command: pip then enter, if pip is not installed you will get an error message: 
 ![Screenshot 19](image-20.png)
 
 How to install PIP.
-    Step 4: Install PIP on Windows
-    Step 5: Now that we downloaded the get-pip.py file, we need to complete the followings steps.
-        Open the command line
-        Navigate to the folder where Python and the get-pip.py file are stored using the cd command
-        Launch the installer by running the following command:
-            python get-pip.py
+Step 4: Install PIP on Windows
+Step 5: Now that we downloaded the get-pip.py file, we need to complete the followings steps.
+    Open the command line
+    Navigate to the folder where Python and the get-pip.py file are stored using the cd command
+    Launch the installer by running the following command:
+        python get-pip.py
 ![Screenshot 20](image-21.png)
 
-    Step 6:After a quick installation process, a message appears with all the details of the installation, and the final line appears as follows:
-        Successfully installed pip-22.0.1 wheel-0.37.1
-        PIP is now successfully installed on Windows.
+Step 6:After a quick installation process, a message appears with all the details of the installation, and the final line appears as follows:
+     Successfully installed pip-22.0.1 wheel-0.37.1
+    PIP is now successfully installed on Windows.
 
-    Step 7:Verify the PIP Installation Process and Check the PIP Version
-    To double-check if PIP has been installed properly and check its version, we need to run one of these commands in the command line:
-        pip --version
+Step 7:Verify the PIP Installation Process and Check the PIP Version
+To double-check if PIP has been installed properly and check its version, we need to run one of these commands in the command line:
+    pip --version
     or
-        pip -V
-    Step 8: If PIP is installed correctly, we will see a message indicating the version of PIP and its location on the local system, like the following:
+     pip -V
+Step 8: If PIP is installed correctly, we will see a message indicating the version of PIP and its location on the local system, like the following:
 
-        pip 22.0.2 from C:\Users\Utente\AppData\Local\Programs\Python\Python310\lib\site-packages\pip (python 3.10).
-    If instead, an error is thrown, it is necessary to repeat the installation process.
+    pip 22.0.2 from C:\Users\Utente\AppData\Local\Programs\Python\Python310\lib\site-packages\pip (python 3.10).
+If instead, an error is thrown, it is necessary to repeat the installation process.
 
 Reference : https://www.dataquest.io/blog/install-pip-windows/
 
