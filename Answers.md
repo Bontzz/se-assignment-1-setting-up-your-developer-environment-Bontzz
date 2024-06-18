@@ -94,40 +94,40 @@ Step 7: Once installation is done. Open Gitbash, right click and open as adminis
     ![Screenshoot 14](image-13.png)
 
 How to use connect Gitbash to Github.
-    Step 1: Configure git by using this command 
-    Set your username:
+Step 1: Configure git by using this command 
+Set your username:
         git config --global user.name "FIRST_NAME LAST_NAME"
 
-    Set your email address:
+Set your email address:
         git config --global user.email MY_NAME@example.com
 
-    Step 3: Change your current working directory to a folder where you would like to store your project. You the command cd.
+Step 3: Change your current working directory to a folder where you would like to store your project. You the command cd.
 
-    Step 4: Commit Repository in Git Bash
-    Initialize the local directory as a Git repository.
+Step 4: Commit Repository in Git Bash
+Initialize the local directory as a Git repository.
         git init 
-    Stage the files for the first commit by adding them to the local repository
+Stage the files for the first commit by adding them to the local repository
         git add .
-    By “git status“ you can see the staged files after that Commit the files that you’ve staged in your local repository.
+ By “git status“ you can see the staged files after that Commit the files that you’ve staged in your local repository.
         git commit -m "First commit"
-    Now After the “git status” command, it can be seen that nothing to commit is left, Hence all files have been committed.
+Now After the “git status” command, it can be seen that nothing to commit is left, Hence all files have been committed.
 
-    Step 5: Step 3: Initializing a Local Git Repository
+Step 5: Step 3: Initializing a Local Git Repository
 
-    Open GitHub through the internet and click on create new repository Give a suitable name for your repository and create the repository.
+Open GitHub through the internet and click on create new repository Give a suitable name for your repository and create the repository.
 ![Screenshot 15](image-14.png)
 
-    Note:  You can choose to initialize your git repository with a README file, and further, you can mention your project details in it. It helps people know what this repository is about. However, it’s absolutely not necessary.
+Note:  You can choose to initialize your git repository with a README file, and further, you can mention your project details in it. It helps people know what this repository is about. However, it’s absolutely not necessary.
 
-    The following will appear after creating the repository
+The following will appear after creating the repository
 ![Screenshot 16](image-15.png)
 
-    Step 4: Connect the local Repository to GitHub
-    Go to the GitHub repository and in the code, section copy the URL and In the Command prompt, add the URL for your repository where your local repository will be pushed.
-        git remote add origin repository_URL
-    Push the changes in your local repository to GitHub.
+Step 4: Connect the local Repository to GitHub
+Go to the GitHub repository and in the code, section copy the URL and In the Command prompt, add the URL for your repository where your local repository will be pushed.
+    git remote add origin repository_URL
+Push the changes in your local repository to GitHub.
         git push origin master
-    Here the files have been pushed to the master branch of your repository. Now in the GitHub repository, the pushed files can be seen.
+Here the files have been pushed to the master branch of your repository. Now in the GitHub repository, the pushed files can be seen.
 
     Step 5: Pulling and Pushing Changes to GitBash
     Suppose the files are being changed and new files are added to the local repository. To save the changes in the git repository:
